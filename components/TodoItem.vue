@@ -115,8 +115,8 @@
     .todo-item { 
         margin-bottom:10px; 
         .item__inner { display:flex; }
-        .item__date { font-size: 12px; }
-        .done {
+        .item__date { font-size: 11px; color:blue; }
+        &.done {
             .item__title { 
                 text-decoration: line-through;
             }
